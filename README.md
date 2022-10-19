@@ -1,5 +1,5 @@
 # Open Horizon Help
-- [Management Hub installtion document](./management-hub/README.md)
+- [Management Hub installation document](./management-hub/README.md)
 - [Secure Device Onboarding (SDO) with Open Horizon - Docker Job](./sdo-docker-job/README.md)
 
 <br/>
