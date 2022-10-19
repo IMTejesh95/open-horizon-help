@@ -1,4 +1,4 @@
-# Horizon Operator Example For Edge Cluster
+# Open Horizon Example For Edge Cluster
 
 This is a simple example of installing and using Edge Cluster (K3S) with Open Horizon.
 
@@ -28,8 +28,8 @@ curl -sfL https://get.k3s.io | sh -
 ### Create the image registry service:
 
 4. Copy followig files to edge cluster machine.
-    - `k3s-persistent-claim.yml`
-    - `k3s-registry-deployment.yml`
+    - [k3s-persistent-claim.yml](./k3s-persistent-claim.yml)
+    - [k3s-registry-deployment.yml](./k3s-registry-deployment.yml)
 
 5. Create the persistent volume claim:
 ```bash
@@ -171,3 +171,8 @@ export HZN_EXCHANGE_USER_AUTH=iamapikey:<api-key>
 ```bash
 /usr/local/bin/k3s-uninstall.sh
 ```
+3. Removing Aliases:
+```bash
+ unalias hzn
+ unalias getagentpod
+ ```
