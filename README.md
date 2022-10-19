@@ -1,6 +1,8 @@
 # Open Horizon Help
 - [Management Hub installtion document](./management-hub/README.md)
 - [Secure Device Onboarding (SDO) with Open Horizon - Docker Job](./sdo-docker-job/README.md)
+- [Managing and Deploying services on Edge Cluster - K3S](./edge-cluster/README.md)
+- [Deploying Existing Container using Open Horizon](./deploying-container/README.md)
 
 <br/>
 <br/>
