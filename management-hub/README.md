@@ -25,7 +25,7 @@ If all set we can run All-in-One script as `root`.
   ```bash
   ./deploy-mgmt-hub.sh
   ```
-  If all went right, note down the credentials from output summary which are required to access open-horizon commands and APIs. And test if all components of Open Horizon Management Hub are working correctly.
+  If all went right, note down the credentials (like HZN_ORG_ID, HZN_EXCHANGE_USER_AUTH) from output summary which are required to access open-horizon commands and APIs. And test if all components of Open Horizon Management Hub are working correctly.
   
   Sample output summary:
   ```bash
